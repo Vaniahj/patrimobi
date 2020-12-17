@@ -28,3 +28,5 @@ Route::get('/userlist', function () {
     $umUsuarioQualquer->save();
     return User::all();
 });
+
+Route::get('registramovimentacao', 'MovimentacaoPatrimonial@mostrawelcometambem')->name('MovimentacaoPatrimonial.registramovimentacao');
